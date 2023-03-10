@@ -1,0 +1,28 @@
+{
+  "name": "logseq_backup",
+  "version": "1.0.0",
+  "description": "Backupper for logseq",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilbasso-dot/logseq-backup.git"
+  },
+  "keywords": [
+    "logseq"
+  ],
+  "author": "Ilbasso-dot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilbasso-dot/logseq-backup/issues"
+  },
+  "homepage": "https://github.com/Ilbasso-dot/logseq-backup#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
