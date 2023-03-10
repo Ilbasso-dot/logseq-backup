@@ -162,8 +162,7 @@ const send_backup = (folder_to_backup) => {
 const retrive_backup = (folder_to_load, latest = 1) => {
     let data = readData();
     let arr = lastBackup(data, latest);
-    // console.log(arr, "res");
-    // downloadFromJson(arr, folder_to_load);
+    fs.mkdirSync(folder_to_load, { recursive: true });
     arr.then((res) => {
         console.log(res, "res");
         downloadFromJson(res, folder_to_load);
