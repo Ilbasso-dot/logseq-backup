@@ -169,3 +169,5 @@ const retrive_backup = (folder_to_load, latest = 1) => {
     })
 
 }
+
+module.exports =  { send_backup, retrive_backup };
